@@ -13,7 +13,7 @@ class App extends Component {
       name: nameinput,
       address: addressInput
     }
-    const url='http://localhost:2999/api/register'
+    const url='https://smoketreesbackend-18vj.onrender.com/api/register'
     const option= {
       method: 'POST',
       headers:{
