@@ -13,7 +13,7 @@ class App extends Component {
       name: nameinput,
       address: addressInput
     }
-    const url='http://localhost:3000/api/register'
+    const url='http://localhost:2999/api/register'
     const option= {
       method: 'POST',
       headers:{
