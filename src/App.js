@@ -32,8 +32,9 @@ class App extends Component {
 
   onInpAddress=(e)=>{
     this.setState({addressInput: e.target.value})
-
   }
+
+ 
 
   render(){
     const {nameinput, addressInput}= this.state
@@ -45,6 +46,7 @@ class App extends Component {
           <input value={nameinput} id='name' onChange={this.onInpName} type='text' />
           <label htmlFor='address' className='lable'>Address</label>
           <input value={addressInput} id='address' onChange={this.onInpAddress} type='text'/>
+          
           <button className='button' type='submit'>Submit</button>
         </form>
       </div>
